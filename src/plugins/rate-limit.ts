@@ -39,3 +39,5 @@ export default fp(async function rateLimitPlugin(app) {
     },
   });
 });
+
+// Configured rate limiting tiering for authenticated vs unauthenticated routes.
