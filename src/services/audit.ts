@@ -150,3 +150,5 @@ export function auditGroupMemberActionTx(
     metadata: params.metadata,
   });
 }
+
+// Audit logging helper for database transactions.
