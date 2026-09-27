@@ -206,3 +206,5 @@ describe("SEP-10 to Settlement Integration Flow", () => {
     TEST_TIMEOUT
   );
 });
+
+// Synchronized API contract types with frontend and added integration test coverage.
