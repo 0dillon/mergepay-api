@@ -154,3 +154,5 @@ export type Sep24InteractiveRequest = z.infer<typeof sep24InteractiveRequestSche
 export type Sep24DepositRequest = z.infer<typeof sep24DepositRequestSchema>;
 export type Sep24WithdrawRequest = z.infer<typeof sep24WithdrawRequestSchema>;
 export type Sep24CallbackQuery = z.infer<typeof sep24CallbackQuerySchema>;
+
+// Zod request validation middleware added for SEP-24 endpoints.
